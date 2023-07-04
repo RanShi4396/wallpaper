@@ -1,6 +1,6 @@
 #!/bin/sh
-xrandr --output eDP-1 --rate 85 --mode 1920x1200
-xinput set-prop 12 375 1 1 1 2 1 3
+xrandr --output eDP-1 --rate 85 --mode 1920x1200 --output HDMI-1-0 --auto --left-of eDP-1
+#xinput set-prop 12 375 1 1 1 2 1 3
 feh --bg-fill  --no-fehbg ~/Pictures/wallpaper/60340_nichijou.jpg
 #feh --bg-fill --no-fehbg ~/Pictures/wallpaper/shinkai_foot_anime.jpg
 #feh --bg-fill --no-fehbg ~/Pictures/wallpaper/sunshine_room.jpg
